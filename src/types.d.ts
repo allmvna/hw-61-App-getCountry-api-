@@ -9,3 +9,7 @@ export interface Country {
         svg: string;
     };
 }
+
+export interface DetailCountry extends Country {
+    borderNames?: string[];
+}
